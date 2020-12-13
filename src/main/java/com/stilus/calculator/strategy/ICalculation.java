@@ -2,6 +2,6 @@ package com.stilus.calculator.strategy;
 
 public interface ICalculation {
 
-	public double calculate(double a, double b);
+	public float calculate(float a, float b);
 
 }
