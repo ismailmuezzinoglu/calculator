@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://www.stilus.com/calculator/soap/model/add"
+	targetNamespace="http://www.stilus.com/calculator/soap/model/add"
+	elementFormDefault="qualified">
+
+    <element name="AddRequest">
+      <complexType>
+    		<sequence>
+    			<element name="num1" type="float" />
+    			<element name="num2" type="float"/>
+    		</sequence>
+    	</complexType>
+    </element>
+    
+    <element name="AddResponse">
+    	<complexType>
+    		<sequence>
+    			<element name="result" type="float"/>
+    		</sequence>
+    	</complexType>
+    </element>
+    
+</schema>

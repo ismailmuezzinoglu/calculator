@@ -10,8 +10,7 @@ import com.stilus.calculator.strategy.ICalculation;
 public class Addition implements ICalculation {
 
 	@Override
-	public double calculate(double a, double b) {
-
+	public float calculate(float a, float b) {
 		return a + b;
 	}
 
